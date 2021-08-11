@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="barra-ferramentas">
 
-        <img src="./logo.png" className="logo" />     
+        <img src="./logo.png" className="logo"></img>     
       
         <div class="search-box">
           <input class="search-txt" type="text" name="" placeholder="Pesquisar"/>
@@ -25,16 +25,17 @@ function App() {
       
 {/* post timeline*/}
 
-      <div className="post">
-        
-        <div className="write-post">
-          <div class="user-profile">
-            <img src=""/>
+
+        <div className="post">
+          <div class="user-profile">{/*foto do perfil*/}
+            <img src="#" alt=""></img>
+            <div>
+              <p>Escala 10</p>
+              <span>10 de agosto de 2021, 11:15 pm</span>
+            </div>
           </div>
-        </div>
-        
-        <img src="#" className="post-img" /> 
-        <p className="post-legenda"> Acerte a pontuação do Capitão para participar de um sorteio onde teremos 5 escolhidos para...</p>
+          <img src="" class="img-post"></img>{/*imagem do post*/}
+          <p class="texto-post">Acerte a pontuação do Capitão para participar de um sorteio onde teremos 5 escolhidos para...</p>
         
         <div className="butons">
           <p> BTN likes</p>
