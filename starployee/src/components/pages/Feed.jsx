@@ -1,18 +1,18 @@
-import './App.css'
+import './Feed.css'
 import { Link } from 'react-router-dom'
 
-import escala from './img/escala.png'
-import post from './img/post.png'
-import perfil from './img/perfil.png'
-import deuloop from './img/deuloop.png'
-import nubank from './img/nubank.png'
+import escala from '../../img/escala.png'
+import post from '../../img/post.png'
+import perfil from '../../img/perfil.png'
+import deuloop from '../../img/deuloop.png'
+import nubank from '../../img/nubank.png'
 
-import BarraFerramentas from './components/layout/BarraFerramentas.jsx'
+import BarraFerramentas from '../../components/layout/BarraFerramentas.jsx'
 
-function App() {
+function Feed() {
   return (
           /*Barra de ferramentas */
-    <div className="App">
+    <div className="Feed">
       
       <header>
         <BarraFerramentas />
@@ -81,11 +81,10 @@ function App() {
             </div>
           </div>
           <p className="sobre-link">Starployee©</p>
-          <Link to="/About" className="sobre-link">Sobre</Link>
+          <a href="#" className="sobre-link">Sobre</a>
         </div>
       </div>
-    </div>
-    
+    </div> 
   );
 }
-export default App;
+export default Feed;
